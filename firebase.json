@@ -1,4 +1,10 @@
 {
-  "firebase": "slack",
-  "public": "dist"
+  "hosting": {
+    "public": "./dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }
